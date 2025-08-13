@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f2fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150vh;
+}
+
+.card {
+  background: white;
+  border-radius: 25px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  text-align: center;
+  padding: 20px;
+  width: 90%;
+  max-width: 400px;
+}
+
+.krishna-img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.quote {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #333;
+  min-height: 80px;
+  white-space: pre-wrap;
+}
+
+button {
+  background: #7042a9;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #5a3590;
+}
